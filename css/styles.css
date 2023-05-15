@@ -23,7 +23,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--secondary-accent-color);
 }
 
 .list {
@@ -196,7 +196,7 @@ color: #434455;
 /* ==================================== PORTFOLIO ==================================== */
 /* Buttons */
 .filter-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -210,10 +210,18 @@ color: #434455;
   cursor: pointer;
 }
 
-.filter-btn:hover {
+.filter-btn:hover,
+.filter-btn:focus {
     color: #FFFFFF;
   background: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
+  .category {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5
+letter-spacing: 0.02em;
+color: var(--body-text);
+  }
 /* ==================================== PORTFOLIO ==================================== */
