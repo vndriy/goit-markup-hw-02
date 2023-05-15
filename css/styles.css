@@ -1,6 +1,9 @@
 :root {
   --body-text: #434455;
   --accent-color: #4d5ae5;
+  --secondary-accent-color: #2E2F42;
+  --pressed-state-color: #404BBF;
+  --light-mode-backgrounds: #f4f4fd;
 }
 
 body {
@@ -11,9 +14,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  background-color: FFFFFF;
 }
 
 .subtitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
   color: #2E2F42;
 }
 
@@ -27,40 +35,40 @@ body {
 }
 /* ==================================== COMPONENTS ==================================== */
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--accent-color);
 }
 
 .logo-style {
-  color: #4d5ae5;
+  color: var(--secondary-accent-color);
+}
+
+.logo-style-footer {
+  color: var(--light-mode-backgrounds);
 }
 /* ==================================== /COMPONENTS ==================================== *
 
+
+
 /* ==================================== HEADER ==================================== */
-.contact-mail {
+
+.contacts {
   font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
-.contact-phone {
-  font-family: "Roboto" sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+.address {
+    font-style: normal;
 }
 
 .menu-link {
@@ -69,14 +77,16 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--accent-color);
+  color: var(--pressed-state-color);
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
-  color: var(--accent-color);
+.contacts:hover,
+.contacts:focus {
+  color: var(--pressed-state-color);
 }
 /* ==================================== /HEADER ==================================== */
+
+
 
 /* ==================================== HERO ==================================== */
 .hero {
@@ -93,7 +103,7 @@ body {
 }
 
 .modal-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -107,16 +117,54 @@ body {
   cursor: pointer;
 }
 
-.modal-btn:hover {
+.modal-btn:hover
+.modal-btn:focus {
   background: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 /* ==================================== /HERO ==================================== */
 
+/* ==================================== ABOUT ==================================== */
+.ours-works {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--secondary-accent-color);
+}
+
+.our-team {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--secondary-accent-color);
+}
+
+.teams-member {
+    background-color: FFFFFF;
+    /* Header 3 */
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.teams-member {
+    font-size: 16px;
+}
+/* ==================================== /ABOUT ==================================== */
+
+
 /* ==================================== TEAM ==================================== */
 .team-section {
-  background-color: var(--cloud-color);
+  background-color: var(--light-mode-backgrounds);
 }
 /* ==================================== /TEAM ==================================== */
 
