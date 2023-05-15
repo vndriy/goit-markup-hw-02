@@ -4,6 +4,7 @@
   --secondary-accent-color: #2E2F42;
   --pressed-state-color: #404BBF;
   --light-mode-backgrounds: #f4f4fd;
+  --background: #FFFFFF;
 }
 
 body {
@@ -14,7 +15,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: FFFFFF;
+  background-color: var(--background);
 }
 
 .subtitle {
@@ -119,7 +120,7 @@ letter-spacing: 0.02em;
 
 .modal-btn:hover
 .modal-btn:focus {
-  background: #404bbf;
+  background: var(--pressed-state-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
