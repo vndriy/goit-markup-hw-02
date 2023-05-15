@@ -1,10 +1,10 @@
 :root {
   --body-text: #434455;
   --accent-color: #4d5ae5;
-  --secondary-accent-color: #2E2F42;
-  --pressed-state-color: #404BBF;
+  --secondary-accent-color: #2e2f42;
+  --pressed-state-color: #404bbf;
   --light-mode-backgrounds: #f4f4fd;
-  --background: #FFFFFF;
+  --background: #ffffff;
 }
 
 body {
@@ -19,10 +19,10 @@ body {
 }
 
 .subtitle {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--secondary-accent-color);
 }
 
@@ -70,8 +70,8 @@ letter-spacing: 0.02em;
 }
 
 .address {
-    font-style: normal;
-    color: var(--body-text);
+  font-style: normal;
+  color: var(--body-text);
 }
 
 .menu-link {
@@ -88,8 +88,6 @@ letter-spacing: 0.02em;
   color: var(--pressed-state-color);
 }
 /* ==================================== /HEADER ==================================== */
-
-
 
 /* ==================================== HERO ==================================== */
 .hero {
@@ -113,62 +111,60 @@ letter-spacing: 0.02em;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background: #4D5AE5;
+  background: #4d5ae5;
   cursor: pointer;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
   background: var(--pressed-state-color);
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 /* ==================================== /HERO ==================================== */
 
 /* ==================================== ABOUT ==================================== */
 .ours-works {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--secondary-accent-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-accent-color);
 }
 
 .our-team {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--secondary-accent-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-accent-color);
 }
 
 .teams-member {
-    background-color: FFFFFF;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
+  background-color: FFFFFF;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .team-cards {
-    font-size: 16px;
-    background-color: #FFFFFF;
+  font-size: 16px;
+  background-color: #ffffff;
 }
 
 .team-position {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-color: #434455;
-
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
 }
 
 /* ==================================== /ABOUT ==================================== */
-
 
 /* ==================================== TEAM ==================================== */
 .team-section {
@@ -199,8 +195,8 @@ color: #434455;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #4D5AE5;
-  background: #F4F4FD;
+  color: #4d5ae5;
+  background: #f4f4fd;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -208,16 +204,17 @@ color: #434455;
 
 .filter-btn:hover,
 .filter-btn:focus {
-    color: #FFFFFF;
+  color: #ffffff;
   background: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
 
-  .category {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5
-letter-spacing: 0.02em;
-color: var(--body-text);
-  }
+.example-category {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text);
+}
 /* ==================================== PORTFOLIO ==================================== */
