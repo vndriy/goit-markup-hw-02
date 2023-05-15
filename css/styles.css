@@ -70,6 +70,7 @@ letter-spacing: 0.02em;
 
 .address {
     font-style: normal;
+    color: var(--body-text);
 }
 
 .menu-link {
@@ -121,6 +122,7 @@ letter-spacing: 0.02em;
 .modal-btn:hover
 .modal-btn:focus {
   background: var(--pressed-state-color);
+  background-color: #404BBF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -149,7 +151,6 @@ color: var(--secondary-accent-color);
 
 .teams-member {
     background-color: FFFFFF;
-    /* Header 3 */
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -157,9 +158,19 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 
-.teams-member {
+.team-cards {
     font-size: 16px;
+    background-color: #FFFFFF;
 }
+
+.team-position {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+
+}
+
 /* ==================================== /ABOUT ==================================== */
 
 
